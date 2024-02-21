@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <header className="p-1 sticky top-0 left-0 right-0 z-10">
+    <header className="p-4 sticky top-0 left-0 right-0 z-10">
       <div className="container mx-auto pt-8 md:pt-16">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <Link href="#" className="flex items-center">

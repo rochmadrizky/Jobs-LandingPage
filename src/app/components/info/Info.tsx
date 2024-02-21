@@ -14,8 +14,8 @@ const Info = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-4">
-      <div className="flex flex-col md:flex-row items-center justify-center">
-        <div className="w-[350px] h-[200px] text-center md:text-left">
+      <div className="flex flex-col lg:flex-row items-center justify-center">
+        <div className="w-full md:w-[350px] h-[200px] text-center lg:text-left pt-3">
           <h1 className="text-2xl md:text-4xl font-bold">1,500,000+</h1>
           <p className="text-base md:text-lg text-[#2E2E2E] pt-2">
             This is your new text content. You can modify this text, add more
@@ -23,7 +23,8 @@ const Info = () => {
             button.
           </p>
         </div>
-        <div className="grid grid-cols-4">
+
+        <div className="grid grid-cols-4 pb-3">
           {infoPartner.map((logo, urutan) => (
             <img key={urutan} src={`/info/${logo}`} alt={logo} />
           ))}

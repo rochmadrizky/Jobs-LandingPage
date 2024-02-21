@@ -31,7 +31,7 @@ const Media = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-32 pt-12 md:pt-28">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-16 pt-12 md:pt-28">
             {data.map((nilai, urutan) => (
               <div key={urutan} className="w-[113px] h-[64px]">
                 <div className="text-white text-center">
