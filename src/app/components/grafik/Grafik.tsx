@@ -2,7 +2,7 @@ import React from "react";
 
 const Grafik = () => {
   return (
-    <div className="max-w-7xl mx-auto px-6 py-4">
+    <div className="max-w-7xl mx-auto" id="product">
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-20 py-6">
           <img src="/grafik/group1.png" alt="grafik" />
@@ -36,7 +36,7 @@ const Grafik = () => {
           <img
             src="/grafik/group2.png"
             alt="garfik"
-            className=" order-1 lg:order-2"
+            className="order-1 lg:order-2 mt-0 md:mt-8"
           />
         </div>
 

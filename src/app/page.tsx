@@ -5,57 +5,47 @@ import Headline from "./components/headline/Headline";
 import Hero from "./components/home/Hero";
 import Info from "./components/info/Info";
 import Media from "./components/media/Media";
-import Navbar from "./components/navigasi/Navbar";
+import Pricing from "./components/pricing/Pricing";
+import Testi from "./components/testi/Testi";
 
 export default function Home() {
   return (
-    <div className="">
-      {/* kemarin selasa */}
-      <Navbar />
-
-      {/* done */}
-      <div className="">
+    <div className="max-w-7xl mx-auto">
+      <section>
         <Hero />
-      </div>
-      {/*  */}
+      </section>
 
-      {/* done */}
-      <div className="">
+      <section className="pb-10">
         <Info />
-      </div>
-      {/*  */}
+      </section>
 
-      {/* done */}
-      <div className="">
+      <section className="py-10">
         <Fitur />
-      </div>
-      {/*  */}
+      </section>
 
-      {/* done */}
-      <div className="">
+      <section className="py-10">
         <Media />
-      </div>
-      {/*  */}
+      </section>
 
-      {/* hari ini rabu*/}
-
-      {/* done */}
-      <div className="">
+      <section className="py-10">
         <Grafik />
-      </div>
-      {/* done */}
+      </section>
 
-      {/* belum done */}
-      <div className="pb-60">
+      <section className="pb-72">
         <Headline />
-      </div>
-      {/*  */}
+      </section>
 
-      {/* done */}
-      <div className="">
+      <section className="py-10">
         <Custom />
-      </div>
-      {/*  */}
+      </section>
+
+      <section className="py-10">
+        <Testi />
+      </section>
+
+      <section className="py-10">
+        <Pricing />
+      </section>
     </div>
   );
 }

@@ -2,8 +2,8 @@ import React from "react";
 
 const Custom = () => {
   return (
-    <div className="max-w-7xl mx-auto px-6 py-4">
-      <div className="flex flex-col items-center lg:items-start lg:flex-row py-3">
+    <div className="max-w-7xl mx-auto">
+      <div className="flex flex-col items-center lg:items-start lg:flex-row">
         <img src="/custom/card.png" alt="card" />
 
         <div className="flex flex-col max-w-md">

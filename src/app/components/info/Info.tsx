@@ -13,7 +13,7 @@ const Info = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-6 py-4">
+    <div className="max-w-7xl mx-auto px-6">
       <div className="flex flex-col lg:flex-row items-center justify-center">
         <div className="w-full md:w-[350px] h-[200px] text-center lg:text-left pt-3">
           <h1 className="text-2xl md:text-4xl font-bold">1,500,000+</h1>

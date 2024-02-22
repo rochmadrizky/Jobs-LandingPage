@@ -13,7 +13,7 @@ const Fitur = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-6 py-4">
+    <div className="max-w-7xl mx-auto">
       <div className="flex flex-col items-center justify-center">
         <div>
           <div className="pb-12 text-center md:text-left">
