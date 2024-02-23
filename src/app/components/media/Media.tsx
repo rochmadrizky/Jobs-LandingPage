@@ -13,14 +13,14 @@ const Media = () => {
         className="h-[484px] w-full flex items-center justify-center bg-center"
         style={{ backgroundImage: `url('/media/bg.png')` }}
       >
-        <div className="max-w-7xl mx-auto">
+        <div className=" max-w-5xl md:max-w-7xl mx-auto p-4">
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-col items-center justify-center">
-              <div className="text-white text-center p-8">
-                <h1 className="text-4xl font-bold">
+              <div className="text-white text-center p-6">
+                <h1 className="text-3xl font-bold">
                   Search through more than 11 million
                 </h1>
-                <h1 className="text-4xl font-bold">social media profiles</h1>
+                <h1 className="text-3xl font-bold">social media profiles</h1>
               </div>
 
               <div className="text-white text-center px-6 w-full md:px-12 lg:w-[400px]">
