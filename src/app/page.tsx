@@ -75,9 +75,15 @@ export default function Home() {
         <Testi />
       </section>
 
-      <section className="py-10">
-        <Pricing />
-      </section>
+      <div className="relative overflow-hidden">
+        <section className="py-10">
+          <Pricing />
+        </section>
+
+        <div className="absolute -bottom-32 md:-top-32 md:-left-60 lg:-left-40 overflow-hidden -z-10">
+          <img src="/hiasan/kiri.png" alt="hiasan" />
+        </div>
+      </div>
     </div>
   );
 }

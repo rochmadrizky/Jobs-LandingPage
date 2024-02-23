@@ -23,7 +23,7 @@ const Pricing = () => {
           </div>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-            <div className="w-[311px] h-[380px] border shadow-lg rounded-lg">
+            <div className="w-[311px] h-[380px] border shadow-lg rounded-lg bg-white">
               <div className="p-8">
                 <div className="flex items-center justify-between">
                   <div>
@@ -68,7 +68,7 @@ const Pricing = () => {
               </div>
             </div>
 
-            <div className="w-[311px] h-[380px] border shadow-lg rounded-lg">
+            <div className="w-[311px] h-[380px] border shadow-lg rounded-lg bg-white">
               <div className="p-8">
                 <div className="flex items-center justify-between">
                   <div className="p-1">
