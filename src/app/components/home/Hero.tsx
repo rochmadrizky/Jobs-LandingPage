@@ -7,17 +7,18 @@ const Hero = () => {
         className="h-[930px] w-full flex items-center justify-center bg-center bg-no-repeat relative -top-36 md:-top-28 left-0 right-0"
         style={{ backgroundImage: `url('/home/bg.png')` }}
       >
-        <div className="flex flex-col md:flex-row items-center justify-between gap-32 md:relative md:-bottom-12 ">
-          <div className="w-full lg:w-[559px] h-[132px] p-4 mb-4 md:my-0">
-            <div className="flex flex-col items-center md:items-start">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-32 relative bottom-20 md:-bottom-12 ">
+          <div className="w-full lg:w-[559px] h-[132px] p-4 mb-6 md:my-0">
+            <div className="flex flex-col items-center md:items-start bg-black bg-opacity-50 p-4 rounded-lg">
               <h1 className="text-white text-4xl font-bold">Personal Goals</h1>
 
               <div className="max-w-md py-4 md:py-8">
                 <p className="text-white text-center md:text-left">
-                  Don’t misunderstand: OKR also helps you reach your personal
-                  goals. Utilizing OKR allows you to gain personal benefits such
-                  as making more effective decisions, being more productive,
-                  building stronger bonds with your loved ones, and many more.
+                  Don&apos;t misunderstand: OKR also helps you reach your
+                  personal goals. Utilizing OKR allows you to gain personal
+                  benefits such as making more effective decisions, being more
+                  productive, building stronger bonds with your loved ones, and
+                  many more.
                 </p>
               </div>
 
@@ -27,8 +28,8 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="w-full lg:w-[559px] h-[132px] p-4">
-            <div className="flex flex-col items-center md:items-start">
+          <div className="w-full lg:w-[559px] h-[132px] p-4 mt-6 md:mt-0">
+            <div className="flex flex-col items-center md:items-start bg-black bg-opacity-50 p-4 rounded-lg">
               <div className="flex items-center lg:items-end flex-col lg:flex-row">
                 <h1 className="text-white text-4xl font-bold">
                   Organizational
