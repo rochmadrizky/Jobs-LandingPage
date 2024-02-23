@@ -15,25 +15,45 @@ export default function Home() {
         <Hero />
       </section>
 
-      <section className="pb-10">
+      <section className="pb-10 px-4">
         <Info />
       </section>
 
-      <section className="py-10">
-        <Fitur />
-      </section>
+      <div className="py-10 relative overflow-hidden">
+        <section className="py-10 px-4">
+          <Fitur />
+        </section>
 
-      <section className="py-10">
-        <Media />
-      </section>
+        <div className="absolute -z-10 top-60 overflow-hidden -right-60 md:top-32 lg:right-4 lg:top-0">
+          <img src="/hiasan/bola.png" alt="hiasan" />
+        </div>
 
-      <section className="py-10">
-        <Grafik />
-      </section>
+        <div className="absolute -z-10 bottom-60 overflow-hidden -left-60 md:bottom-32 block lg:hidden">
+          <img src="/hiasan/bola.png" alt="hiasan" />
+        </div>
+      </div>
 
-      <section className="pb-72">
-        <Headline />
-      </section>
+      <div className="relative overflow-hidden">
+        <section className="py-10">
+          <Media />
+        </section>
+
+        <section className="py-10 px-4">
+          <Grafik />
+        </section>
+
+        <section className="pb-72">
+          <Headline />
+        </section>
+
+        <div className="absolute top-96 md:top-32 md:-right-60 lg:-right-40 overflow-hidden -z-10">
+          <img src="/hiasan/kiri.png" alt="hiasan" className=" rotate-180" />
+        </div>
+
+        <div className="absolute bottom-[684px] md:bottom-52 md:-left-60 lg:-left-40 overflow-hidden -z-10">
+          <img src="/hiasan/kiri.png" alt="hiasan" />
+        </div>
+      </div>
 
       <section className="py-10">
         <Custom />

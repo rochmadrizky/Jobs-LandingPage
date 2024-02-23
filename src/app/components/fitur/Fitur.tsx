@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Fitur = () => {
@@ -26,7 +27,7 @@ const Fitur = () => {
             {fitur.map((isi, urutan) => (
               <div
                 key={urutan}
-                className="w-full md:w-[255px] h-[200px] rounded-md shadow-xl border"
+                className="w-full md:w-[255px] h-[200px] rounded-md bg-white shadow-xl border"
               >
                 <div className="p-2 pb-10">
                   <h1 className="text-2xl text-[#2E2E2E] font-bold">
@@ -38,7 +39,7 @@ const Fitur = () => {
                 </div>
 
                 <div className="p-2 pt-10">
-                  <img src={isi.logo} alt="fitur" />
+                  <Image width={32} height={32} src={isi.logo} alt="fitur" />
                 </div>
               </div>
             ))}

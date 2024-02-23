@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import React, { useEffect } from "react";
 
 const testi = [
@@ -89,13 +90,16 @@ const Testi = () => {
                   setGambarTerpilih(urutan);
                 }}
               >
-                <img
+                <Image
+                  width={56}
+                  height={56}
                   src={`/testi/${kata.gambar}`}
                   className={`border ${
                     gambarTerpilih === urutan
                       ? "w-[68px] h-[68px] rounded-full"
                       : "border-transparent"
                   }`}
+                  alt={""}
                 />
               </button>
             ))}

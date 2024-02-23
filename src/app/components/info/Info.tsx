@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Info = () => {
@@ -26,7 +27,13 @@ const Info = () => {
 
         <div className="grid grid-cols-4 pb-3">
           {infoPartner.map((logo, urutan) => (
-            <img key={urutan} src={`/info/${logo}`} alt={logo} />
+            <Image
+              width={160}
+              height={90}
+              key={urutan}
+              src={`/info/${logo}`}
+              alt={logo}
+            />
           ))}
         </div>
       </div>
