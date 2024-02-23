@@ -10,7 +10,7 @@ import Testi from "./components/testi/Testi";
 
 export default function Home() {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="min-h-screen mx-auto">
       <div className="relative overflow-hidden">
         <section>
           <Hero />

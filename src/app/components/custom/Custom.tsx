@@ -1,11 +1,10 @@
-import Image from "next/image";
 import React from "react";
 
 const Custom = () => {
   return (
     <div className="max-w-7xl mx-auto">
       <div className="flex flex-col items-center xl:items-start xl:flex-row">
-        <Image width={675} height={507} src="/custom/card.png" alt="card" />
+        <img src="/custom/card.png" alt="card" />
 
         <div className="flex flex-col max-w-md">
           <div className="p-8">
@@ -23,12 +22,7 @@ const Custom = () => {
 
             <div className="flex flex-col">
               <div className="flex items-center">
-                <Image
-                  width={60}
-                  height={58}
-                  src="/custom/strategi.png"
-                  alt="strategi"
-                />
+                <img src="/custom/strategi.png" alt="strategi" />
 
                 <div>
                   <h1 className="font-bold text-[#222222] text-xl">
@@ -43,12 +37,7 @@ const Custom = () => {
               </div>
 
               <div className="flex items-center">
-                <Image
-                  width={60}
-                  height={57}
-                  src="/custom/jadwal.png"
-                  alt="jadwal"
-                />
+                <img src="/custom/jadwal.png" alt="jadwal" />
 
                 <div>
                   <h1 className="font-bold text-[#222222] text-xl">

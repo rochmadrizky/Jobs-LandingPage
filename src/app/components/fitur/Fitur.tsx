@@ -39,7 +39,7 @@ const Fitur = () => {
                 </div>
 
                 <div className="p-2 pt-10">
-                  <Image width={32} height={32} src={isi.logo} alt="fitur" />
+                  <img src={isi.logo} alt="fitur" />
                 </div>
               </div>
             ))}

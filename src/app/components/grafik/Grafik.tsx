@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 const Grafik = () => {
@@ -6,12 +5,15 @@ const Grafik = () => {
     <div className="max-w-7xl mx-auto" id="product">
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-20 py-6">
-          <Image
-            width={580.09}
-            height={252.17}
-            src="/grafik/group1.png"
-            alt="grafik"
-          />
+          <div className="flex gap-4 p-4">
+            <div className="mb-8">
+              <img src="/grafik/grafik2.png" alt="grafik" />
+            </div>
+
+            <div className="mt-8">
+              <img src="/grafik/grafik1.png" alt="grafik" />
+            </div>
+          </div>
 
           <div className="max-w-md text-center lg:text-left">
             <h1 className="font-bold text-[#4E4E4E] md:text-4xl text-3xl">
@@ -39,22 +41,32 @@ const Grafik = () => {
             </p>
           </div>
 
-          <Image
-            width={530.91}
-            height={475.99}
-            src="/grafik/group2.png"
-            alt="garfik"
-            className="order-1 lg:order-2 mt-0 md:mt-8"
-          />
+          <div className="flex flex-col order-1 lg:order-2 relative p-4">
+            <div className="absolute right-0">
+              <img src="/grafik/diagram1.png" alt="diagram" />
+            </div>
+            <div className="relative -left-[76px] -bottom-24">
+              <img src="/grafik/diagram2.png" alt="diagram" />
+            </div>
+          </div>
         </div>
 
         <div className="flex flex-col lg:flex-row items-center justify-center gap-20 py-6">
-          <Image
-            width={550}
-            height={401}
-            src="/grafik/group3.png"
-            alt="grafik"
-          />
+          <div className="flex items-center p-4">
+            <div className="flex flex-col">
+              <div>
+                <img src="/grafik/grafik3729.png" alt="grafik" />
+              </div>
+
+              <div>
+                <img src="/grafik/simple.png" alt="grafik" />
+              </div>
+            </div>
+
+            <div>
+              <img src="/grafik/3729.png" alt="grafik" />
+            </div>
+          </div>
 
           <div className="max-w-md text-center lg:text-left">
             <h1 className="font-bold text-[#4E4E4E] md:text-4xl text-3xl">

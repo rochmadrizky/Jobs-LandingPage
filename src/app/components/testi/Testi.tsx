@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import React, { useEffect } from "react";
 
 const testi = [
@@ -72,12 +71,7 @@ const Testi = () => {
               </div>
 
               <div className="flex items-start justify-center">
-                <Image
-                  width={32}
-                  height={98}
-                  src="/testi/quote.png"
-                  alt="testi"
-                />
+                <img src="/testi/quote.png" alt="testi" />
 
                 <div className="max-w-xl mt-3">
                   <p>{ulasan.deskripsi}</p>
@@ -95,9 +89,7 @@ const Testi = () => {
                   setGambarTerpilih(urutan);
                 }}
               >
-                <Image
-                  width={56}
-                  height={56}
+                <img
                   src={`/testi/${kata.gambar}`}
                   className={`border ${
                     gambarTerpilih === urutan
