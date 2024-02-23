@@ -72,7 +72,12 @@ const Testi = () => {
               </div>
 
               <div className="flex items-start justify-center">
-                <img src="/testi/quote.png" alt="testi" />
+                <Image
+                  width={32}
+                  height={98}
+                  src="/testi/quote.png"
+                  alt="testi"
+                />
 
                 <div className="max-w-xl mt-3">
                   <p>{ulasan.deskripsi}</p>
