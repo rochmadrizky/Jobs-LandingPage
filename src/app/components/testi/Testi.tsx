@@ -51,7 +51,7 @@ const Testi = () => {
   }, []);
 
   return (
-    <div className="max-w-7xl mx-auto" id="customer">
+    <div id="customer">
       <div
         className="h-[484px] w-full flex items-center justify-center bg-center bg-no-repeat"
         style={{ backgroundImage: `url('/testi/bg.png')` }}

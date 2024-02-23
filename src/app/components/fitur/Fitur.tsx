@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 const Fitur = () => {
@@ -14,7 +13,7 @@ const Fitur = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="px-4">
       <div className="flex flex-col items-center justify-center">
         <div>
           <div className="pb-12 text-center md:text-left">

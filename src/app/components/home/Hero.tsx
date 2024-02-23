@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="max-w-7xl mx-auto" id="home">
+    <div id="home">
       <div
         className="h-[930px] w-full flex items-center justify-center bg-center bg-no-repeat relative -top-36 md:-top-28 left-0 right-0"
         style={{ backgroundImage: `url('/home/bg.png')` }}

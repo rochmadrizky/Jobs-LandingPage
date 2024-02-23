@@ -10,13 +10,13 @@ import Testi from "./components/testi/Testi";
 
 export default function Home() {
   return (
-    <div className="min-h-screen mx-auto">
+    <div>
       <div className="relative overflow-hidden">
-        <section>
+        <section className="max-w-7xl mx-auto">
           <Hero />
         </section>
 
-        <section className="pb-10 px-4">
+        <section className="max-w-7xl mx-auto pb-10">
           <Info />
         </section>
 
@@ -26,7 +26,7 @@ export default function Home() {
       </div>
 
       <div className="relative overflow-hidden">
-        <section className="py-10 px-4">
+        <section className="max-w-7xl mx-auto py-10">
           <Fitur />
         </section>
 
@@ -40,15 +40,15 @@ export default function Home() {
       </div>
 
       <div className="relative overflow-hidden">
-        <section className="py-10">
+        <section className="max-w-7xl mx-auto py-10">
           <Media />
         </section>
 
-        <section className="py-10 px-4">
+        <section className="max-w-7xl mx-auto py-10 px-4">
           <Grafik />
         </section>
 
-        <section className="pb-72">
+        <section className="max-w-7xl mx-auto pb-72">
           <Headline />
         </section>
 
@@ -62,7 +62,7 @@ export default function Home() {
       </div>
 
       <div className="relative overflow-hidden">
-        <section className="py-10">
+        <section className="max-w-7xl mx-auto py-10">
           <Custom />
         </section>
 
@@ -71,12 +71,12 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="py-10">
+      <section className="py-10 max-w-7xl mx-auto">
         <Testi />
       </section>
 
       <div className="relative overflow-hidden">
-        <section className="py-10">
+        <section className="py-10 max-w-7xl mx-auto">
           <Pricing />
         </section>
 

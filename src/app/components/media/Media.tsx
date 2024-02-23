@@ -8,7 +8,7 @@ const Media = () => {
     { angka: 9786, deskripsi: "Completed" },
   ];
   return (
-    <div className="max-w-7xl mx-auto">
+    <div>
       <div
         className="h-[484px] w-full flex items-center justify-center bg-center"
         style={{ backgroundImage: `url('/media/bg.png')` }}

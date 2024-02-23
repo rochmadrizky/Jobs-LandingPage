@@ -2,7 +2,7 @@ import React from "react";
 
 const Grafik = () => {
   return (
-    <div className="max-w-7xl mx-auto" id="product">
+    <div className="px-4" id="product">
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-20 py-6">
           <div className="flex gap-4 p-4">

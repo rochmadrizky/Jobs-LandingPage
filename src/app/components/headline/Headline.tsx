@@ -2,7 +2,7 @@ import React from "react";
 
 const Headline = () => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div>
       <div
         className="h-[484px] w-full flex items-center justify-center bg-center"
         style={{ backgroundImage: `url('/headline/bg.png')` }}

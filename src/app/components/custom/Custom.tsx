@@ -2,7 +2,7 @@ import React from "react";
 
 const Custom = () => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="px-4">
       <div className="flex flex-col items-center xl:items-start xl:flex-row">
         <img src="/custom/card.png" alt="card" />
 

@@ -3,7 +3,7 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div className="max-w-7xl mx-auto" id="price">
+    <div className="px-4" id="price">
       <div className="flex flex-col md:flex-row items-center justify-center">
         <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-between">
           <div className="max-w-xl px-4">
