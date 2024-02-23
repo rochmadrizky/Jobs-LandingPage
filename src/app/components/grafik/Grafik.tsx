@@ -14,7 +14,7 @@ const Grafik = () => {
           />
 
           <div className="max-w-md text-center lg:text-left">
-            <h1 className="font-bold text-[#4E4E4E] text-4xl">
+            <h1 className="font-bold text-[#4E4E4E] md:text-4xl text-3xl">
               The content marketing service focused on RESULTS
             </h1>
 
@@ -28,7 +28,7 @@ const Grafik = () => {
 
         <div className="flex flex-col lg:flex-row items-center justify-center gap-20 py-6">
           <div className="max-w-md order-2 lg:order-1 text-center lg:text-left">
-            <h1 className="font-bold text-[#4E4E4E] text-4xl">
+            <h1 className="font-bold text-[#4E4E4E] md:text-4xl text-3xl">
               What you get with our content marketing for startups service
             </h1>
 
@@ -57,7 +57,7 @@ const Grafik = () => {
           />
 
           <div className="max-w-md text-center lg:text-left">
-            <h1 className="font-bold text-[#4E4E4E] text-4xl">
+            <h1 className="font-bold text-[#4E4E4E] md:text-4xl text-3xl">
               Our Content Writing & Marketing Service costs $2,500/month.
             </h1>
 

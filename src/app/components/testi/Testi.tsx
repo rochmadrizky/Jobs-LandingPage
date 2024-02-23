@@ -9,35 +9,35 @@ const testi = [
     nama: "Miya",
     jabatan: "CEO, ABC Corporation",
     deskripsi:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ab, dignissimos consectetur nesciunt labore deleniti illum quaerat ullam tempore at nobis repellendus laboriosam, quis accusantium qui est! Magni veniam dignissimos, libero distinctio animi placeat, laboriosam voluptate porro recusandae?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quidem maiores! Labore, suscipit eligendi? Illo voluptatem soluta dolores cumque itaque recusandae in. Deserunt, impedit dolore. Obcaecati, autem eveniet.",
   },
   {
     gambar: "2.png",
     nama: "Bruno",
     jabatan: "Founder, ABC Corporation",
     deskripsi:
-      "We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quidem maiores! Labore, suscipit eligendi? Illo voluptatem soluta dolores cumque itaque recusandae in. Deserunt, impedit dolore. Obcaecati, autem eveniet.",
   },
   {
     gambar: "3.png",
     nama: "Layla",
     jabatan: "Partner, ABC Corporation",
     deskripsi:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ab, dignissimos consectetur nesciunt labore deleniti illum quaerat ullam tempore at nobis repellendus laboriosam, quis accusantium qui est! Magni veniam dignissimos, libero distinctio animi placeat, laboriosam voluptate porro recusandae?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quidem maiores! Labore, suscipit eligendi? Illo voluptatem soluta dolores cumque itaque recusandae in. Deserunt, impedit dolore. Obcaecati, autem eveniet.",
   },
   {
     gambar: "4.png",
     nama: "Paquito",
     jabatan: "CTO, ABC Corporation",
     deskripsi:
-      "We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quidem maiores! Labore, suscipit eligendi? Illo voluptatem soluta dolores cumque itaque recusandae in. Deserunt, impedit dolore. Obcaecati, autem eveniet.",
   },
   {
     gambar: "5.png",
     nama: "Nolan",
     jabatan: "Digital Creative, ABC Corporation",
     deskripsi:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ab, dignissimos consectetur nesciunt labore deleniti illum quaerat ullam tempore at nobis repellendus laboriosam, quis accusantium qui est! Magni veniam dignissimos, libero distinctio animi placeat, laboriosam voluptate porro recusandae?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quidem maiores! Labore, suscipit eligendi? Illo voluptatem soluta dolores cumque itaque recusandae in. Deserunt, impedit dolore. Obcaecati, autem eveniet.",
   },
 ];
 
