@@ -11,15 +11,21 @@ import Testi from "./components/testi/Testi";
 export default function Home() {
   return (
     <div className="max-w-7xl mx-auto">
-      <section>
-        <Hero />
-      </section>
+      <div className="relative overflow-hidden">
+        <section>
+          <Hero />
+        </section>
 
-      <section className="pb-10 px-4">
-        <Info />
-      </section>
+        <section className="pb-10 px-4">
+          <Info />
+        </section>
 
-      <div className="py-10 relative overflow-hidden">
+        <div className="absolute -z-10 bottom-0 overflow-hidden -left-60 lg:left-4 ">
+          <img src="/hiasan/bola.png" alt="hiasan" />
+        </div>
+      </div>
+
+      <div className="relative overflow-hidden">
         <section className="py-10 px-4">
           <Fitur />
         </section>
@@ -55,9 +61,15 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="py-10">
-        <Custom />
-      </section>
+      <div className="relative overflow-hidden">
+        <section className="py-10">
+          <Custom />
+        </section>
+
+        <div className="absolute -z-10 top-80 overflow-hidden -right-60 md:top-[464px] lg:right-4 lg:top-0">
+          <img src="/hiasan/bola.png" alt="hiasan" />
+        </div>
+      </div>
 
       <section className="py-10">
         <Testi />
