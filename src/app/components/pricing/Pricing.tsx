@@ -6,7 +6,7 @@ const Pricing = () => {
     <div className="max-w-7xl mx-auto" id="price">
       <div className="flex flex-col md:flex-row items-center justify-center">
         <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-between">
-          <div className="max-w-xl">
+          <div className="max-w-xl px-4">
             <div className="px-2 py-1 border-l-4 border-[#FF8F00]">
               <h1 className="text-4xl font-bold ml-4">Pricing</h1>
             </div>
